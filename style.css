@@ -1,0 +1,20 @@
+.toolbar {
+    display: inline;
+    width: 100%;
+}
+
+li.element {
+	display:inline-block;
+	text-align:center;
+	width: 15%;
+}
+
+.join-dd {
+	display: none;
+	z-index: 1;
+}
+
+.join:hover .join-dd {
+	background-color: yellow; //change
+	display: block;
+}
