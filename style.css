@@ -1,20 +1,40 @@
-.toolbar {
-    display: inline;
-    width: 100%;
+body {
+  color: rgb(162, 168, 173);
 }
 
-li.element {
-	display:inline-block;
-	text-align:center;
-	width: 15%;
+.nav-wrapper {
+  width: 100%;
 }
 
-.join-dd {
-	display: none;
-	z-index: 1;
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
 
-.join:hover .join-dd {
-	background-color: yellow; //change
-	display: block;
+ul li {
+	float: left;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(10, 61, 112);
+  line-height: 40px;
+  text-align: center;
+}
+
+.element a {
+  text-decoration: none;
+  color: rgb(162, 168, 173);
+  display: block;
+}
+
+.element a:hover {
+  background-color: rgb(87, 74, 119);
+}
+
+.drop-down {
+  display: none;
+}
+
+.element:hover .drop-down {
+  display: block;
 }

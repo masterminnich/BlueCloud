@@ -1,0 +1,9 @@
+#search_button {
+  border-color: rgb(108, 202, 255);
+  color: rgb(108, 202, 255);
+}
+
+#search_button:hover {
+  color: white;
+  background-color: rgb(108, 202, 255);
+}
