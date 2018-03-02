@@ -7,3 +7,44 @@
   color: white;
   background-color: rgb(108, 202, 255);
 }
+
+
+/* Slideshow CSS Start */
+.slideshow {
+	display:none
+}
+
+/* Slideshow CSS End */
+
+
+/* Footer CSS Start */
+
+#column {
+    float: left;
+    padding: 10px;
+    height: 300px;
+}
+
+.col1 {
+	width: 25%;
+	background-color: red;
+}
+
+.col2 {
+	width: 30%;
+	background-color: coral;
+}
+
+.col3 {
+	width: 45%;
+	background-color: red;
+}
+
+/* Clear floats of columns in footer */
+.footer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer CSS End */
