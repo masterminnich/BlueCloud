@@ -13,38 +13,78 @@
 .slideshow {
 	display:none
 }
-
 /* Slideshow CSS End */
 
 
 /* Footer CSS Start */
+.footer h1 {
+	color: white;
+	font-size: 18px;
+}
+
+.footer a {
+	color: white;
+	font-size: 16px;
+}
+
+.footer p {
+	color: gray;
+	font-size: 14px;
+}
 
 #column {
     float: left;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 35px;
     height: 300px;
 }
 
 .col1 {
-	width: 25%;
-	background-color: red;
+	width: 23%;
+	background-color: rgb(20, 20, 20);
+	border-right: 1px solid rgb(80, 80, 80)
+}
+
+.col2, .col2b {
+	width: 17.5%;
+	background-color: rgb(20, 20, 20);
 }
 
 .col2 {
-	width: 30%;
-	background-color: coral;
+    float: left;
+    padding-left: 40px;
+    padding-top: 35px;
+    height: 300px;
+}
+
+.container-top {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 80%;
+}
+
+.container-bottom {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .col3 {
-	width: 45%;
-	background-color: red;
+	width: 42%;
+	background-color: rgb(20, 20, 20);
+	text-align: center;
+	border-left: 1px solid rgb(80, 80, 80)
 }
 
-/* Clear floats of columns in footer */
-.footer:after {
+.footer:after { /* Clear floats of columns in footer */
     content: "";
     display: table;
     clear: both;
 }
 
+.footer {
+	line-height:35px;
+}
 /* Footer CSS End */
