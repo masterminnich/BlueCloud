@@ -2,43 +2,74 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href='./styleBootstrap.css'>
+    <link rel="stylesheet" type="text/css" href='./styleCountdown.css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>BlueCloud</title>
   </head>
   <body>
   <!-- Many of these features were copied from the Bootstrap documentation at https://getbootstrap.com/docs/4.0/getting-started/introduction/ -->
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-12">
-          <div class="text-center">
             <img src="./images/BlueCloud Logo V2-04 (HomePage).png" class="img-fluid"></img>
+        </div>
+      </div>
+      <div id="row-1" class="row">
+        <div id="first-infor" class="col-lg-9">
+          <h1 id="first">Be the first to create a Movement with BlueCloud!</h1>
+          <p id="first_text">BlueCloud is a full-stack crowdfunding platform that provides a range of crowdfunding options, marketing services, the opportunity to gain clients, and a marketplace where you can begin collecting pre-orders or sales for your recently-funded Movement. Unlike every other crowdfunding platform, we don’t stop there; BlueCloud is with you every step of the way on your entrepreneurial, artistic, or philanthropic journey. We’re more than a platform, we’re a Community. Learn more below!</p>
+          <p id="movement-button-1">
+            <span id=button-1><button type="button" class="btn btn-danger">Create a Movement</button></span>
+            <span id=link-1>or <a href="#"><strong>sign in to return your movement</a></span>
+          </p>
+          <p id="email-list">Join our <a href="#"><strong>email list </strong></a>for updates!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div id="second-infor" class="col-12">
+          <h1 id="second">
+            What's a Movement?
+          </h1>
+          <p id="second_text">
+            It’s a crowdfunding campaign to connect your great idea, service, or cause to the funding you need by the people that believe in your mission! We’re dedicated to bringing your entrepreneurial aspirations to life, and here for you every step of the way. You can learn more be reading below.
+          </p>
+          <p id="second_quote">
+            <span "second_quote_line"> ______ </span>
+            <span id="second_quote_text"><em>"Campaigns are a thing of the past. <br>Start a movement instead."</em></span>
+          </p>
+        </div>
+      </div>
+      <div class="row" id="third">
+        <div class="col-12 text-center">
+          <div id="third-holder">
+            <h1 id="third-text">Create a Movement Now to Sign Up</h1>
+            <button type="button" class="btn btn-danger">Create a Movement</button>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-12">
-          <h1 id="first">Be the first to create a Movement with BlueCloud!</h1>
-          <p id="first_text">BlueCloud is a full-stack crowdfunding platform that provides a range of crowdfunding options, marketing services, the opportunity to gain clients, and a marketplace where you can begin collecting pre-orders or sales for your recently-funded Movement. Unlike every other crowdfunding platform, we don’t stop there; BlueCloud is with you every step of the way on your entrepreneurial, artistic, or philanthropic journey. We’re more than a platform, we’re a Community. Learn more below!</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 text-center" id="clock">
+        <div class="col-12 text-center align-middle" id="clock">
+          <h1>Countdown Until Launch:</h1>
           <h1>00:00:00</h1>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12">
-          <p id="clock-description">What’s a Movement? It’s a crowdfunding campaign to connect your great idea, service, or cause to the funding you need by the people that believe in your mission! We’re dedicated to bringing your entrepreneurial aspirations to life, and here for you every step of the way. You can learn more be reading below.</p>
+      <div class="row" id="fourth">
+        <div class="col-12 text-center">
+          <h2><em>"Developing an Entreprenurial Community With More Than Just Crowdfunding"</em></h2>
         </div>
       </div>
-      <div class="row">
+      <div class="row" id="dropdown-explainer">
         <div class="col-12 text-center">
-          <h2>Create a Movement Now to Sign-Up</h2>
-          <button type="button" class="btn btn-danger">Create a Movement</button>
-          <h3>or <a href="#"><strong>return to your movement</strong></a></h3>
-          <h3>Join our <a href="#"><strong>email list</strong></a></h3>
+          <h1>Cloud Guide</h1>
+          <p>
+            The Cloud Guide is a universal tool to help guide you through basic crowdfunding and BlueCloud Principles. It is a wonderful go-to handbook for any questions, concerns, or relevant information on what we offer and what you should be made aware of! The content herein represents BlueCloud’s viewpoints on how our site should be conducted and what we believe will help you as a user make better choices, stay informed, and think differently. This Guide should also serve as the way you conduct your own actions and behaviors through the use of BlueCloud. This is a professional, entrepreneurial-driven environment and we do our best to nurture our community atmosphere as appropriately and accordingly as possible. The Cloud Guide has been set up to be as transparent as possible for everyone to see and recognize the culture we hope to spread as BlueCloud.
+          </p>
+          <p>
+            <em>
+              *NOTE* the Cloud Guide is NOT our Terms of Use. The Terms of Use is a legal document that you agreed to by signing up to use BlueCloud. The Cloud Guide is not a legal document.**
+            </em>
+          </p>
         </div>
       </div>
       <div class="row">
@@ -81,6 +112,34 @@
               </h5>
             </div>
             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  4. What Makes BlueCloud Different?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFive">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  5. What Else Does BlueCloud Offer Besides Crowdfunding?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
               <div class="card-body">
                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
               </div>

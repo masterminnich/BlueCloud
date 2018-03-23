@@ -1,0 +1,65 @@
+#first-infor {
+  padding-left: 75px;
+}
+#second-infor {
+  padding-left: 75px;
+  height: 65vh;
+  background-color: rgb(149, 151, 155);
+}
+#first {
+  font-style: normal;
+  font-size: 52px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#first_text {
+  font-size: 20px;
+}
+
+#movement-button-1 {
+  padding-top: 50px;
+  padding-left: 70px;
+}
+
+#link-1 {
+  padding-left: 30px;
+}
+
+#email-list {
+  padding-top: 15px;
+  padding-left: 160px;
+  padding-bottom: 30px;
+}
+
+#row-1 {
+background-color: rgb(100, 101, 104);
+}
+
+#second {
+  padding-top: 125px;
+}
+
+#second_text {
+  font-size: 20px;
+  padding-top: 35px;
+}
+
+#second_quote {
+  font-size: 40px;
+  padding-top: 35px;
+}
+
+#third {
+  position: relative;
+  height: 50vh;
+}
+
+#third-holder {
+  position: absolute;
+  top: 40%;
+}
+
+#third-text {
+  text-align: center;
+}
